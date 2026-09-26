@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-condensed: 'Barlow Condensed', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #090B0D;
+  color: #F1F2EE;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-condensed {
+  font-family: var(--font-condensed);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+/* Subtle architectural technical grid & radial background accents */
+.bg-tech-grid {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Accessible focus styling */
+:focus-visible {
+  outline: 2px solid #CCFF00;
+  outline-offset: 2px;
+}

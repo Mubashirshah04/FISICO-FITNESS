@@ -1,0 +1,6 @@
+{
+  "name": "FISICO FITNESS GYM",
+  "description": "FISICO FITNESS GYM is located on Samungli Road in Arbab Town, Quetta. Find the gym location, opening hours and contact information.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
